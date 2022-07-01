@@ -7,6 +7,7 @@ import Csgo from './layouts/csgo.jsx';
 import Dota from './layouts/dota.jsx';
 import Rust from './layouts/rust.jsx';
 import Tf2 from './layouts/tf2.jsx';
+import Login from './layouts/login.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/dota" exact component={Dota} />
         <Route path="/rust" exact component={Rust} />
         <Route path="/tf2" exact component={Tf2} />
+        <Route path="/login" exact component={Login} />
       </Switch>
     </div>
   );

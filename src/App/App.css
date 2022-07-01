@@ -278,6 +278,23 @@
   border-radius: 15px;
 }
 
+/* Login */
+.login {
+  margin-left: 5%;
+}
+.login {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 5%;
+  color: var(--font-color-white);
+}
+.login__title h1 {
+  padding: 10px;
+  background-color: black;
+  border-radius: 15px;
+}
 /*Изменения скорлла*/
 ::-webkit-scrollbar {
   width: 8px;
