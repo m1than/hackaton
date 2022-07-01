@@ -1,11 +1,8 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Panel = () => {
-  // const [dropDown, setDropDown] = useState(false);
   const [icon, setIcon] = useState(false);
   const hangleIcon = () => setIcon(!icon);
-  // const hangleDropDown = () => setDropDown(!dropDown);
 
   return (
     <div className="panel">
@@ -35,30 +32,6 @@ const Panel = () => {
           />
         </form>
       </div>
-      {/* <div className="panel__icon-profile" onClick={hangleDropDown}>
-        <img
-          className="panel__icon-profile-img"
-          src="/images/mary.jpg"
-          alt="Profile-img"
-        />
-      </div> */}
-      {/* <div className={dropDown ? 'panel__dropdown' : 'panel__none'}>
-        <Link className="panel__profile-link" to={'/profile'}>
-          <p className="panel__profile-paragraph">
-            <i className="bi bi-person"></i> Profile
-          </p>
-        </Link>
-        <Link className="panel__profile-link" to={'/settings'}>
-          <p className="panel__profile-paragraph">
-            <i className="bi bi-gear-fill"></i> Settings
-          </p>
-        </Link>
-        <Link className="panel__profile-link" to={'/log-out'}>
-          <p className="panel__profile-paragraph">
-            <i className="bi bi-box-arrow-right"></i> Log-out
-          </p>
-        </Link>
-      </div> */}
     </div>
   );
 };
