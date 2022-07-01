@@ -3,7 +3,7 @@ const Csgo = () => {
     <>
       <div className="play csgo">
         <div className="play__title">
-          <h2>ru</h2>
+          <h1>CS:GO</h1>
         </div>
       </div>
     </>

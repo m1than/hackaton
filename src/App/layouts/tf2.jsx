@@ -3,7 +3,7 @@ const Tf2 = () => {
     <>
       <div className="play tf2">
         <div className="play__title">
-          <h2>ru</h2>
+          <h1>Team FORTRESS 2</h1>
         </div>
       </div>
     </>

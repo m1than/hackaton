@@ -1,6 +1,7 @@
 import { React } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Header from './components/header.jsx';
+import Nav from './components/nav.jsx';
+import Panel from './components/panel.jsx';
 import Games from './layouts/games.jsx';
 import Csgo from './layouts/csgo.jsx';
 import Dota from './layouts/dota.jsx';
@@ -10,7 +11,8 @@ import Tf2 from './layouts/tf2.jsx';
 function App() {
   return (
     <div>
-      <Header />
+      <Nav />
+      <Panel />
       <Switch>
         <Route path="/" exact component={Games} />
         <Route path="/csgo" exact component={Csgo} />

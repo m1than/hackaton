@@ -3,7 +3,7 @@ const Dota = () => {
     <>
       <div className="play games">
         <div className="play__title">
-          <h2>ru</h2>
+          <h1>GAMES</h1>
         </div>
       </div>
     </>

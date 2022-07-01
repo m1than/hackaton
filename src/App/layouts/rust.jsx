@@ -3,7 +3,7 @@ const Rust = () => {
     <>
       <div className="play rust">
         <div className="play__title">
-          <h2>ru</h2>
+          <h1>RUST</h1>
         </div>
       </div>
     </>
