@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #1f2326;
+  --font-color: blanchedalmond;
+  --font-color-black: blanchedalmond;
+
+  --transition: 0.4s;
+  --opacity: 0.9;
+}
+.header {
+  background-color: var(--main-color);
+  height: 10vh;
+}
+.header__title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+.header__title a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+.play {
+  height: 100vh;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+.games {
+  background-image: url(/public/images/play/games.png);
+}
+.csgo {
+  background-image: url(/public/images/play/csgo.jpg);
+}
+.dota {
+  background-image: url(/public/images/play/dota.jpg);
+}
+.rust {
+  background-image: url(/public/images/play/rust.jpg);
+}
+.tf2 {
+  background-image: url(/public/images/play/tf2.webp);
+}
+
+/*Изменения скорлла*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #934a4a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--main-color);
+}
